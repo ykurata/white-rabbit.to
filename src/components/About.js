@@ -8,7 +8,7 @@ class About extends Component {
         <div className="container padding offset" >
           <div className="row">
             <div className="col-lg-12 text-center mb-5">
-              <h1 className="headline">Value of the proposition</h1>
+              <h2 className="display-4">Value of the proposition</h2>
             </div>
           </div>
           <div className="row">
