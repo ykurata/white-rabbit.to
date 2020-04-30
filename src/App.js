@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Jumbotron from './components/Jumbotron';
 import Work from './components/Work';
+import Membership from './components/Membership';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Jumbotron />
       <Work />
+      <Membership />
     </div>
   );
 }
