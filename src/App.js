@@ -6,8 +6,9 @@ import About from './components/About';
 import Jumbotron from './components/Jumbotron';
 import Work from './components/Work';
 import Membership from './components/Membership';
-import Regstration from './components/Registration';
 import Registration from './components/Registration';
+import Founder from './components/Founder';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Work />
       <Membership />
       <Registration />
+      <Contact />
     </div>
   );
 }
