@@ -5,7 +5,13 @@ body {
   font-family: 'Lato',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #505962;
+  /* color: #505962; */
+}
+
+.headline {
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  opacity: 0.7;
 }
 
 
@@ -43,3 +49,90 @@ body {
 .navbar-nav li {
   padding-right: .7rem;
 }
+
+/*--- About styles ---*/
+#about .container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#about .card {
+  height: 170px;
+  margin-bottom: 3rem;
+  
+}
+
+#about .card-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #7bc7af;
+  opacity: 0.8;
+  color: white;
+
+}
+
+#about .card-text {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/*--- Jumbotron styles ---*/
+.jumbotron {
+  background-image: url("./images/background2.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  margin-bottom: 5rem;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  
+  .landing-text h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  /* #about img {
+    max-width: 50%;
+    width: 200;
+    height: 200;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  #projects .col-lg-6 {
+    padding-top: 3rem;
+    padding-bottom: 0;
+  } */
+}
+
+@media (max-width: 576px) {
+
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

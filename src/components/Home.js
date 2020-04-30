@@ -9,14 +9,14 @@ const myStyle = {
   width: '100%',
 	display: 'table',
 	objectFit: 'cover',
-	opacity: '0.6'
+	opacity: '0.8'
 }
 
 const Home = () => {
   return (
     <div id="home" style={myStyle}>
       <div className="landing-text">
-        <h1>white rabbit.to</h1>
+        <h1 className="mb-4">white rabbit.to</h1>
         <h3>White rabbit is a group of hospitality professinal thats thinks outside of the box, <br></br> 
 					to generate new income streams.
 				</h3>

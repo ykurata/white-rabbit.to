@@ -4,7 +4,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <nav className="navbar navbar-expand-md navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">White Rabbit.to</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
