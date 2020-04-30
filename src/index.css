@@ -112,13 +112,40 @@ body {
 }
 .member-item {
   width: 250px;
-  height: 150px;
+  height: 120px;
 }
 .heavy {
   font-weight: 700;
   font-size: 1.5rem;
   color: #e63929;
 }
+
+/*--- Registration styles ---*/
+#registration .container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.register-inner {
+  width: 70%;
+  margin: auto;
+}
+
+.btn {
+  background-color: #e63929;
+  text-transform: uppercase;
+  outline: none;
+  border-style: none;
+  width: 200px;
+  height: 60px;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  background-color: #b50b43;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
