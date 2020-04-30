@@ -50,6 +50,13 @@ body {
   padding-right: .7rem;
 }
 
+.login {
+  width: 80px;
+  height: 40px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
 /*--- About styles ---*/
 #about .container {
   margin-top: 5rem;
