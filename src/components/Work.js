@@ -10,7 +10,7 @@ const Work = () => {
           </div>
         </div>
         <div className="row work-row">
-          <div className="col-sm work-item text-center">
+          <div className="col-lg-4 col-md-12 col-sm-12 work-item text-center left">
             <h4 className="title">Location</h4>
             <p className="lead"> 
             Your orders come in two hours before your shut off time. So you can add your
@@ -19,7 +19,7 @@ const Work = () => {
             profit margin, plus your add on location items .
             </p>
           </div>
-          <div className="col-sm work-item text-center middle">
+          <div className="col-lg-4 col-md-12 col-sm-12 work-item text-center middle">
             <h4 className="title">Platform</h4>
             <p className="lead">
             The platform is to be costumer friendly on both end for the costumer and
@@ -27,7 +27,7 @@ const Work = () => {
             the costumer and you inform and happy.
             </p> 
           </div>
-          <div className="col-sm work-item text-center">
+          <div className="col-lg-4 col-md-12 col-sm-12 work-item text-center right">
             <h4 className="title">Comsumer</h4>
             <p className="lead">
             They get to support their local restaurant. They get Cheaper food prices, Menu suggestions, prepared food items. 

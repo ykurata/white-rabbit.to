@@ -55,6 +55,13 @@ html, body {
   text-align: center;
 }
 
+/* Login/ Sign up Form Styles */
+form {
+  width: 40%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
 /*--- Value styles ---*/
 #value .container {
   margin-top: 5rem;
@@ -118,6 +125,7 @@ html, body {
 .member-item {
   width: 250px;
   height: 120px;
+  margin: auto;
 }
 .heavy {
   font-weight: 700;
@@ -136,7 +144,7 @@ html, body {
   margin: auto;
 }
 
-.btn {
+#registration .btn {
   background-color: #e63929;
   text-transform: uppercase;
   outline: none;
@@ -144,10 +152,10 @@ html, body {
   width: 200px;
   height: 60px;
 }
-.btn:focus {
+#registration .btn:focus {
   outline: none;
 }
-.btn:hover {
+#registration .btn:hover {
   background-color: #b50b43;
 }
 
@@ -179,27 +187,79 @@ html, body {
   margin-bottom: 4rem;
 }
 
-cite {
+#founder cite {
   font-size: 1.5rem;
 }
 
+/*---Blog Styles --*/
+#blog .container {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+#blog .card {
+  height: 400px;
+  margin-bottom: 2rem;
+}
+#blog cite {
+  color: #7bc7af;
+}
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+  /*---How it works styles --*/
+  .work-item {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+  }
+  .middle {
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid #7bc7af;
+    margin-bottom: 1rem;
+  }
+  .left {
+    border-bottom: 5px solid #7bc7af;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+    opacity: 0.7;
+  }
   .landing-text h1 {
     font-size: 2.3rem;
     letter-spacing: .15rem;
     padding-bottom: .5rem;
   }
-  
   .landing-text h3 {
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
   }
-
+  /*---Value styles --*/
+  #value .card {
+    height: 200px;
+  }
+  /*---How it works styles --*/
+  .work-item {
+    width: 300px;
+    height: 350px;
+    margin: auto;
+  }
+  .middle {
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid #7bc7af;
+    margin-bottom: 1rem;
+  }
+  .left {
+    border-bottom: 5px solid #7bc7af;
+    margin-bottom: 1rem;
+  }
+  /*---Founder page styles --*/ 
   #founder img {
     width: 200px;
     height: 200px;
@@ -207,7 +267,20 @@ cite {
     margin: 0 auto;
     margin-bottom: 2rem;
   }
+  /*---Blog page styles --*/ 
+  #blog .card-text {
+    font-size: 1.5rem;
+  }
+  #blog .card-body {
+    height: 200px;
+  }
+  /* Form Styles */
+  form {
+    width: 90%;
+  }
 }
+
+
 
 @media (max-width: 576px) {
 

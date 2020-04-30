@@ -7,7 +7,6 @@ import Jumbotron from './Jumbotron';
 import Work from './Work';
 import Membership from './Membership';
 import Registration from './Registration';
-import Founder from './Founder';
 import Contact from './Contact';
 
 const myStyle = {

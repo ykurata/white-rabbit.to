@@ -21,17 +21,17 @@ class Navbar extends Component {
                   <a className="nav-link" href="/about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#skills">Blog</a>
+                  <a className="nav-link" href="/blog">Blog</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#projects">News Letter</a>
+                  <a className="nav-link" href="/blog">News Letter</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#contact">Contact</a>
                 </li>
                 <li className="nav-item">
                   <div className="login">
-                    <a className="nav-link" href="#contact">Log In</a>
+                    <a className="nav-link" href="/login">Log In</a>
                   </div>
                 </li>
               </ul>
