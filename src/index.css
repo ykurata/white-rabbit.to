@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
-body {
+html, body {
   margin: 0;
   font-family: 'Lato',sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* color: #505962; */
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .display-4 {
@@ -42,7 +42,6 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  height: 5rem;
 }
 
 .navbar-nav li {
@@ -56,19 +55,19 @@ body {
   text-align: center;
 }
 
-/*--- About styles ---*/
-#about .container {
+/*--- Value styles ---*/
+#value .container {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
-#about .card {
+#value .card {
   height: 170px;
   margin-bottom: 3rem;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-#about .card-header {
+#value .card-header {
   text-transform: uppercase;
   font-weight: 700;
   background-color: #7bc7af;
@@ -77,7 +76,7 @@ body {
 
 }
 
-#about .card-text {
+#value .card-text {
   text-align: center;
   font-size: 1.1rem;
 }
@@ -162,6 +161,28 @@ body {
   padding-bottom: 3rem;
 }
 
+/*--- Founder Styles --*/
+#founder .narrow {
+  width: 90%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+#founder img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+#founder .container {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+cite {
+  font-size: 1.5rem;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -179,19 +200,13 @@ body {
     padding-bottom: 1.2rem;
   }
 
-  /* #about img {
-    max-width: 50%;
-    width: 200;
-    height: 200;
+  #founder img {
+    width: 200px;
+    height: 200px;
     display: block;
     margin: 0 auto;
     margin-bottom: 2rem;
   }
-  
-  #projects .col-lg-6 {
-    padding-top: 3rem;
-    padding-bottom: 0;
-  } */
 }
 
 @media (max-width: 576px) {

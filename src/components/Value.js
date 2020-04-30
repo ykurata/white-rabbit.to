@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class About extends Component {
+class Value extends Component {
 
   render() {
     return (
-      <div id="about">
+      <div id="value">
         <div className="container padding offset" >
           <div className="row">
             <div className="col-lg-12 text-center mb-5">
@@ -74,4 +74,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Value;
