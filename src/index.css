@@ -99,12 +99,11 @@ form {
 
 /*--- Jumbotron styles ---*/
 #jumbotron .jumbotron {
-  background-image: url("./images/background2.jpg");
+  background-image: url("./images/edit-dg2.jpg");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
   margin-bottom: 5rem;
-  opacity: 0.9;
 }
 
 /*--- How it works styles ---*/
