@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i&display=swap');
 
 html, body {
   margin: 0;
@@ -10,8 +11,7 @@ html, body {
 }
 
 .display-4 {
-  /* text-transform: uppercase; */
-  /* font-weight: 700; */
+  font-family: 'Playfair Display', serif;
   opacity: 0.7;
 }
 
@@ -255,7 +255,7 @@ form {
   /*---How it works styles --*/
   .work-item {
     width: 400px;
-    height: 350px;
+    height: 300px;
     margin: auto;
   }
   .middle {
@@ -267,6 +267,9 @@ form {
   .left {
     border-bottom: 5px solid #7bc7af;
     margin-bottom: 1rem;
+  }
+  .right {
+    height: 150px;
   }
   /*---Membership styles --*/ 
   .member-item {

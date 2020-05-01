@@ -6,7 +6,7 @@ const About = () => {
       <div className="container padding">
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
-            <h3 className="display-4">
+            <h3 className="display-4 text-center">
               White rabbit is a group of hospitality professinal thats thinks outside of the box,
               to generate new income streams.
             </h3>
