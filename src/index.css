@@ -254,7 +254,7 @@ form {
   }
   /*---How it works styles --*/
   .work-item {
-    width: 300px;
+    width: 400px;
     height: 350px;
     margin: auto;
   }
@@ -274,6 +274,12 @@ form {
     height: 120px;
     margin: auto;
   }
+  /*---Registration styles --*/ 
+  .register-inner {
+    width: 100%;
+    margin: auto;
+  }
+  
   /*---Founder page styles --*/ 
   #founder img {
     width: 200px;
@@ -298,7 +304,6 @@ form {
 
 
 @media (max-width: 576px) {
-  
 }
 
 
