@@ -1,7 +1,8 @@
 import React from "react";
-import market from '../images/market2.jpg';
+import market from '../images/veggies3.jpg';
 
 import Navbar from './Navbar';
+import About from './About';
 import Value from './Value';
 import Jumbotron from './Jumbotron';
 import Work from './Work';
@@ -26,11 +27,12 @@ const Home = () => {
        <div id="home" style={myStyle}>
         <div className="landing-text">
           <h1 className="mb-4">The white rabbit.to</h1>
-          <h3>White rabbit is a group of hospitality professinal thats thinks outside of the box, <br></br> 
+          {/* <h3>White rabbit is a group of hospitality professinal thats thinks outside of the box, <br></br> 
             to generate new income streams.
-          </h3>
+          </h3> */}
         </div>
       </div>
+      <About/>
       <Value/>
       <Jumbotron/>
       <Work/>

@@ -5,8 +5,8 @@ const Jumbotron = () => {
     <div id="jumbotron">
       <div className="jumbotron jumbotron-fluid text-center">
         <div className="container">
-          <h2 className="display-4">Underline Magic</h2>
-          <p className="lead">
+          <h2 className="display-4" style={{ color: "black"}}>Underline Magic</h2>
+          <p className="lead" style={{ color: "black"}}>
             These unfortunate times we live in has force our hands, to think outside the box.<br></br>
             I’m confidence their is no more suitable industry up for this task! <br></br>
             Logistics is in our nature, quality control, time management<br></br> 
