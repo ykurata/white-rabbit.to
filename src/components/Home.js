@@ -27,9 +27,6 @@ const Home = () => {
        <div id="home" style={myStyle}>
         <div className="landing-text">
           <h1 className="mb-4">The white rabbit.to</h1>
-          {/* <h3>White rabbit is a group of hospitality professinal thats thinks outside of the box, <br></br> 
-            to generate new income streams.
-          </h3> */}
         </div>
       </div>
       <About/>
